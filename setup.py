@@ -11,11 +11,11 @@ setup(name='genesisclient',
       license="MIT",
       packages=['genesisclient'],
       install_requires=[
-        'lxml',
-        'suds-py3'],
+          'lxml',
+          'suds-py3'],
       entry_points={
-        'console_scripts': [
-            'genesiscl = genesisclient:main'
-        ]
+          'console_scripts': [
+              'genesiscl = genesisclient:main'
+          ]
       }
-)
+      )
